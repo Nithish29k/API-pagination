@@ -1,0 +1,55 @@
+*{
+    padding: 20px;
+    margin:0;
+    box-sizing: border-box;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+     
+  
+}
+.cards{
+    width: 23%;  
+    box-shadow: 0 0 4px 3px pink;
+    text-align: center;
+    padding: 1.5rem;
+    margin-bottom: 2em;
+}
+.images{
+    width: 85%;
+    height: 30%;
+
+}
+.title{
+    font-size: 1.3rem;
+
+}
+.description{
+  font-size: 13px;
+  color: blue;
+  justify-content: center;
+}
+.category,price{
+    font-size: bold;
+    text-transform: capitalize;
+    margin:1em;
+    font-size: 1.2rem;
+}
+
+
+  .pgBtns{
+    position: relative;
+    position: fixed;
+    right:0;
+    top:89px;
+  }
